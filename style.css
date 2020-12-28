@@ -1,0 +1,254 @@
+ul {
+    list-style-type: none;
+    margin: 9;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(245, 240, 240);
+  }
+  
+  li {
+    float: left;
+  }
+  #section_1 article:hover{
+    transform: scale(1.1);
+    transition: transform 2s;
+    box-shadow:10px 5px 5px gray; 
+  }
+   #section_1 article{
+    transition: transform 2s;
+  }
+  
+  li a {
+    display: block;
+    color:rgb(43, 13, 126);
+    text-align: center;
+    padding: 9px 9px;
+    text-decoration: none;
+    float: right;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(252, 252, 252);
+  }
+  
+  .active {
+    background-color:rgb(255, 255, 255);
+   float: right;
+   padding: 20px;
+
+  }
+  .home{
+    color:#14110c;
+  }
+  .center{
+    margin:0px;
+    position: relative;
+    height:250px;
+    width: auto;
+    border: 2px solid rgb(162, 212, 221);
+      color: aliceblue;
+      background-color: rgb(58, 63, 68);
+      text-align: center;
+  }
+  #section_1 article,
+#section_2 article {
+  float: left;
+  text-align: center;
+	width: calc(33% - 10px);
+    margin:7px;
+}
+.top{
+    margin: 35px;
+    float:right;
+    margin-right: 20px;
+}
+.align{
+  text-align: center;
+}
+
+.section1 {
+  width: 100%;
+  height: 500px;
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1 div{
+	height: 150px;
+	text-align: center;
+}
+.section1 h3{
+	font-size: 200%;
+	color: #fff;
+	padding-bottom: 25px
+}
+.c{
+	max-width: 1150px;
+	width: 100%;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+#btt{
+  margin-top: 27.5px
+
+}
+main{
+  background: #F4F4F4;
+}
+
+  input[type="submit"]{
+    width: 100px;
+      margin: 5px;
+      border: none;
+      background: #806a43;
+      color: #fff;
+  }
+  .f{
+  
+left: 0;
+    bottom: 0;
+    position: absolute;
+    height: 9%;
+    padding: 0;
+    width: 100%;
+  background-color:rgb(8, 4, 41);
+  color: white;
+  text-align: center;
+  }
+
+  .aaa{
+    padding: 25px 0;
+    display: flex;
+      align-items: flex-start;
+  }
+  .Left{
+    margin:  auto;
+    width : 80px;
+  }
+  .Left h4{
+  
+  
+    font-family : Trebuchet  ;
+    width: 127px;
+    font-size : 20px ;
+  }
+  .Left p{
+    padding: 20px 0;
+      font-weight: bold;
+    color: rebeccapurple;
+    width: 126px;
+    font-size: 85%;
+  }
+  .Left .lorem{
+    background: #313d44;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .Right {
+    width: calc(35% - 15px);
+    padding: 35px 20px;
+    background: #313d44;
+    color: #ffffff;
+  }
+  .Right h5{
+    padding-bottom: 15px;
+    font-size: 110%;
+  }
+  .Right p {
+    font-weight: 100;
+    font-size: 85%;
+    line-height: 30px;
+    word-spacing: 4px;
+  }
+  .f{
+  
+  
+  left: 0;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  background-color:rgb(8, 4, 41);
+  color: white;
+  text-align: center;
+  }
+  hr{
+      color:rgba(131, 104, 30, 0.062);
+      border: 2px;
+    }
+  
+  .service {
+    padding: 25px 0;
+    display: flex;
+      align-items: flex-start;
+  }
+  .Leftt article{
+  
+    padding: 20px 20px;
+    margin-bottom: 20px;
+   
+  }
+  .Leftt article h6{
+    font-size: 100%;
+  }
+  .Rightt form fieldset{
+    border: none;
+    background: rgba(9, 34, 71, 0.842);
+  }
+  .Rightt form fieldset div{
+    margin-bottom: 5px;
+  }
+  .Rightt form fieldset label{
+    display: block;
+    font-size: 80%;
+    font-weight: 100;
+    color:white;
+  }
+  .Rightt form fieldset input{
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+  }
+  
+  
+  .Leftt{
+    width: 70%;
+  }
+  h3{
+    color: white;
+  }
+  .Rightt{
+    float: right;
+    width: 28%;
+  }
+  select {
+    font-family : Trebuchet  ;
+    font-size : 20px ;
+    width : 300px ;
+    height: 30PX;
+    }
+    select option {
+      font-size: large;
+    }
+    label{
+      font-family : Trebuchet  ;
+    font-size : 20px ;
+    }
+    .button {
+      border: none;
+      color: white;
+      width : 700px ;
+      height: 30PX;
+      text-align: center;
+      font-family : Trebuchet
+      font-size: 15px;
+      margin: 100px 2px;
+     
+      
+    }
+    
+    .button1 {background-color: rgb(32, 20, 99);}
